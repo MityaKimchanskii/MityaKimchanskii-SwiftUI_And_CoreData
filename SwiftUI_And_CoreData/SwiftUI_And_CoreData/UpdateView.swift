@@ -1,14 +1,13 @@
 //
-//  CompanyDetail.swift
+//  UpdateView.swift
 //  SwiftUI_And_CoreData
 //
-//  Created by Mitya Kim on 3/30/23.
+//  Created by Mitya Kim on 3/31/23.
 //
 
 import SwiftUI
 
 struct UpdateView: View {
-    
     @StateObject var company: Company
     
     @State private var companyName: String = ""
@@ -24,7 +23,7 @@ struct UpdateView: View {
             }.padding()
             Text(company.name ?? "")
             Spacer()
-        }
+        }.navigationTitle(company.name ?? "")
     }
     
     private func updateCompany() {
@@ -39,7 +38,7 @@ struct UpdateView_Previews: PreviewProvider {
     static var previews: some View {
         let viewContext = PersistenceController.preview.container.viewContext
         let newCompany = Company(context: viewContext)
-        newCompany.name = "iOS Developer"
+        newCompany.name = "Apple"
         
         return UpdateView(company: newCompany)
             .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)

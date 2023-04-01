@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B5DA5E529D67843007846F4 /* SwiftUI_And_CoreDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5DA5E429D67843007846F4 /* SwiftUI_And_CoreDataApp.swift */; };
-		3B5DA5E729D67843007846F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5DA5E629D67843007846F4 /* ContentView.swift */; };
-		3B5DA5E929D67844007846F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5DA5E829D67844007846F4 /* Assets.xcassets */; };
-		3B5DA5ED29D67844007846F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5DA5EC29D67844007846F4 /* Preview Assets.xcassets */; };
+		3BB79A1829D7A4C70019EEDA /* SwiftUI_And_CoreDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB79A1729D7A4C70019EEDA /* SwiftUI_And_CoreDataApp.swift */; };
+		3BB79A1A29D7A4C70019EEDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB79A1929D7A4C70019EEDA /* ContentView.swift */; };
+		3BB79A1C29D7A4C80019EEDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB79A1B29D7A4C80019EEDA /* Assets.xcassets */; };
+		3BB79A2029D7A4C80019EEDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB79A1F29D7A4C80019EEDA /* Preview Assets.xcassets */; };
+		3BB79A2829D7A5000019EEDA /* Intro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BB79A2629D7A5000019EEDA /* Intro.xcdatamodeld */; };
+		3BB79A2A29D7A5640019EEDA /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB79A2929D7A5640019EEDA /* PersistenceController.swift */; };
+		3BB79A2C29D7B0B00019EEDA /* UpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB79A2B29D7B0B00019EEDA /* UpdateView.swift */; };
+		3BB79A2E29D7B6A10019EEDA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB79A2D29D7B6A10019EEDA /* DetailView.swift */; };
+		3BB79A3329D7BAB20019EEDA /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB79A2F29D7BAB20019EEDA /* Employee+CoreDataClass.swift */; };
+		3BB79A3429D7BAB20019EEDA /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB79A3029D7BAB20019EEDA /* Employee+CoreDataProperties.swift */; };
+		3BB79A3529D7BAB20019EEDA /* Company+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB79A3129D7BAB20019EEDA /* Company+CoreDataClass.swift */; };
+		3BB79A3629D7BAB20019EEDA /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB79A3229D7BAB20019EEDA /* Company+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3B5DA5E129D67843007846F4 /* SwiftUI_And_CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_And_CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B5DA5E429D67843007846F4 /* SwiftUI_And_CoreDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_And_CoreDataApp.swift; sourceTree = "<group>"; };
-		3B5DA5E629D67843007846F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3B5DA5E829D67844007846F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3B5DA5EA29D67844007846F4 /* SwiftUI_And_CoreData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_And_CoreData.entitlements; sourceTree = "<group>"; };
-		3B5DA5EC29D67844007846F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BB79A1429D7A4C70019EEDA /* SwiftUI_And_CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_And_CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB79A1729D7A4C70019EEDA /* SwiftUI_And_CoreDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_And_CoreDataApp.swift; sourceTree = "<group>"; };
+		3BB79A1929D7A4C70019EEDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BB79A1B29D7A4C80019EEDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BB79A1D29D7A4C80019EEDA /* SwiftUI_And_CoreData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_And_CoreData.entitlements; sourceTree = "<group>"; };
+		3BB79A1F29D7A4C80019EEDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BB79A2729D7A5000019EEDA /* Intro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Intro.xcdatamodel; sourceTree = "<group>"; };
+		3BB79A2929D7A5640019EEDA /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		3BB79A2B29D7B0B00019EEDA /* UpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateView.swift; sourceTree = "<group>"; };
+		3BB79A2D29D7B6A10019EEDA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3BB79A2F29D7BAB20019EEDA /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3BB79A3029D7BAB20019EEDA /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3BB79A3129D7BAB20019EEDA /* Company+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3BB79A3229D7BAB20019EEDA /* Company+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B5DA5DE29D67843007846F4 /* Frameworks */ = {
+		3BB79A1129D7A4C70019EEDA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +49,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B5DA5D829D67843007846F4 = {
+		3BB79A0B29D7A4C70019EEDA = {
 			isa = PBXGroup;
 			children = (
-				3B5DA5E329D67843007846F4 /* SwiftUI_And_CoreData */,
-				3B5DA5E229D67843007846F4 /* Products */,
+				3BB79A1629D7A4C70019EEDA /* SwiftUI_And_CoreData */,
+				3BB79A1529D7A4C70019EEDA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3B5DA5E229D67843007846F4 /* Products */ = {
+		3BB79A1529D7A4C70019EEDA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B5DA5E129D67843007846F4 /* SwiftUI_And_CoreData.app */,
+				3BB79A1429D7A4C70019EEDA /* SwiftUI_And_CoreData.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B5DA5E329D67843007846F4 /* SwiftUI_And_CoreData */ = {
+		3BB79A1629D7A4C70019EEDA /* SwiftUI_And_CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				3B5DA5E429D67843007846F4 /* SwiftUI_And_CoreDataApp.swift */,
-				3B5DA5E629D67843007846F4 /* ContentView.swift */,
-				3B5DA5E829D67844007846F4 /* Assets.xcassets */,
-				3B5DA5EA29D67844007846F4 /* SwiftUI_And_CoreData.entitlements */,
-				3B5DA5EB29D67844007846F4 /* Preview Content */,
+				3BB79A3129D7BAB20019EEDA /* Company+CoreDataClass.swift */,
+				3BB79A3229D7BAB20019EEDA /* Company+CoreDataProperties.swift */,
+				3BB79A2F29D7BAB20019EEDA /* Employee+CoreDataClass.swift */,
+				3BB79A3029D7BAB20019EEDA /* Employee+CoreDataProperties.swift */,
+				3BB79A1729D7A4C70019EEDA /* SwiftUI_And_CoreDataApp.swift */,
+				3BB79A2929D7A5640019EEDA /* PersistenceController.swift */,
+				3BB79A1929D7A4C70019EEDA /* ContentView.swift */,
+				3BB79A2D29D7B6A10019EEDA /* DetailView.swift */,
+				3BB79A2B29D7B0B00019EEDA /* UpdateView.swift */,
+				3BB79A1B29D7A4C80019EEDA /* Assets.xcassets */,
+				3BB79A1D29D7A4C80019EEDA /* SwiftUI_And_CoreData.entitlements */,
+				3BB79A2629D7A5000019EEDA /* Intro.xcdatamodeld */,
+				3BB79A1E29D7A4C80019EEDA /* Preview Content */,
 			);
 			path = SwiftUI_And_CoreData;
 			sourceTree = "<group>";
 		};
-		3B5DA5EB29D67844007846F4 /* Preview Content */ = {
+		3BB79A1E29D7A4C80019EEDA /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3B5DA5EC29D67844007846F4 /* Preview Assets.xcassets */,
+				3BB79A1F29D7A4C80019EEDA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,13 +96,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B5DA5E029D67843007846F4 /* SwiftUI_And_CoreData */ = {
+		3BB79A1329D7A4C70019EEDA /* SwiftUI_And_CoreData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B5DA5F029D67844007846F4 /* Build configuration list for PBXNativeTarget "SwiftUI_And_CoreData" */;
+			buildConfigurationList = 3BB79A2329D7A4C80019EEDA /* Build configuration list for PBXNativeTarget "SwiftUI_And_CoreData" */;
 			buildPhases = (
-				3B5DA5DD29D67843007846F4 /* Sources */,
-				3B5DA5DE29D67843007846F4 /* Frameworks */,
-				3B5DA5DF29D67843007846F4 /* Resources */,
+				3BB79A1029D7A4C70019EEDA /* Sources */,
+				3BB79A1129D7A4C70019EEDA /* Frameworks */,
+				3BB79A1229D7A4C70019EEDA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -86,25 +110,25 @@
 			);
 			name = SwiftUI_And_CoreData;
 			productName = SwiftUI_And_CoreData;
-			productReference = 3B5DA5E129D67843007846F4 /* SwiftUI_And_CoreData.app */;
+			productReference = 3BB79A1429D7A4C70019EEDA /* SwiftUI_And_CoreData.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3B5DA5D929D67843007846F4 /* Project object */ = {
+		3BB79A0C29D7A4C70019EEDA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					3B5DA5E029D67843007846F4 = {
+					3BB79A1329D7A4C70019EEDA = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 3B5DA5DC29D67843007846F4 /* Build configuration list for PBXProject "SwiftUI_And_CoreData" */;
+			buildConfigurationList = 3BB79A0F29D7A4C70019EEDA /* Build configuration list for PBXProject "SwiftUI_And_CoreData" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,42 +136,50 @@
 				en,
 				Base,
 			);
-			mainGroup = 3B5DA5D829D67843007846F4;
-			productRefGroup = 3B5DA5E229D67843007846F4 /* Products */;
+			mainGroup = 3BB79A0B29D7A4C70019EEDA;
+			productRefGroup = 3BB79A1529D7A4C70019EEDA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B5DA5E029D67843007846F4 /* SwiftUI_And_CoreData */,
+				3BB79A1329D7A4C70019EEDA /* SwiftUI_And_CoreData */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3B5DA5DF29D67843007846F4 /* Resources */ = {
+		3BB79A1229D7A4C70019EEDA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B5DA5ED29D67844007846F4 /* Preview Assets.xcassets in Resources */,
-				3B5DA5E929D67844007846F4 /* Assets.xcassets in Resources */,
+				3BB79A2029D7A4C80019EEDA /* Preview Assets.xcassets in Resources */,
+				3BB79A1C29D7A4C80019EEDA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B5DA5DD29D67843007846F4 /* Sources */ = {
+		3BB79A1029D7A4C70019EEDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B5DA5E729D67843007846F4 /* ContentView.swift in Sources */,
-				3B5DA5E529D67843007846F4 /* SwiftUI_And_CoreDataApp.swift in Sources */,
+				3BB79A1A29D7A4C70019EEDA /* ContentView.swift in Sources */,
+				3BB79A2E29D7B6A10019EEDA /* DetailView.swift in Sources */,
+				3BB79A1829D7A4C70019EEDA /* SwiftUI_And_CoreDataApp.swift in Sources */,
+				3BB79A2C29D7B0B00019EEDA /* UpdateView.swift in Sources */,
+				3BB79A3529D7BAB20019EEDA /* Company+CoreDataClass.swift in Sources */,
+				3BB79A2829D7A5000019EEDA /* Intro.xcdatamodeld in Sources */,
+				3BB79A3429D7BAB20019EEDA /* Employee+CoreDataProperties.swift in Sources */,
+				3BB79A3329D7BAB20019EEDA /* Employee+CoreDataClass.swift in Sources */,
+				3BB79A3629D7BAB20019EEDA /* Company+CoreDataProperties.swift in Sources */,
+				3BB79A2A29D7A5640019EEDA /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3B5DA5EE29D67844007846F4 /* Debug */ = {
+		3BB79A2129D7A4C80019EEDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +237,7 @@
 			};
 			name = Debug;
 		};
-		3B5DA5EF29D67844007846F4 /* Release */ = {
+		3BB79A2229D7A4C80019EEDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +288,7 @@
 			};
 			name = Release;
 		};
-		3B5DA5F129D67844007846F4 /* Debug */ = {
+		3BB79A2429D7A4C80019EEDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -294,7 +326,7 @@
 			};
 			name = Debug;
 		};
-		3B5DA5F229D67844007846F4 /* Release */ = {
+		3BB79A2529D7A4C80019EEDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -335,25 +367,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B5DA5DC29D67843007846F4 /* Build configuration list for PBXProject "SwiftUI_And_CoreData" */ = {
+		3BB79A0F29D7A4C70019EEDA /* Build configuration list for PBXProject "SwiftUI_And_CoreData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B5DA5EE29D67844007846F4 /* Debug */,
-				3B5DA5EF29D67844007846F4 /* Release */,
+				3BB79A2129D7A4C80019EEDA /* Debug */,
+				3BB79A2229D7A4C80019EEDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B5DA5F029D67844007846F4 /* Build configuration list for PBXNativeTarget "SwiftUI_And_CoreData" */ = {
+		3BB79A2329D7A4C80019EEDA /* Build configuration list for PBXNativeTarget "SwiftUI_And_CoreData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B5DA5F129D67844007846F4 /* Debug */,
-				3B5DA5F229D67844007846F4 /* Release */,
+				3BB79A2429D7A4C80019EEDA /* Debug */,
+				3BB79A2529D7A4C80019EEDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3BB79A2629D7A5000019EEDA /* Intro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BB79A2729D7A5000019EEDA /* Intro.xcdatamodel */,
+			);
+			currentVersion = 3BB79A2729D7A5000019EEDA /* Intro.xcdatamodel */;
+			path = Intro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 3B5DA5D929D67843007846F4 /* Project object */;
+	rootObject = 3BB79A0C29D7A4C70019EEDA /* Project object */;
 }

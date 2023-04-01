@@ -1,8 +1,8 @@
 //
-//  PersistentController.swift
+//  PersistenceController.swift
 //  SwiftUI_And_CoreData
 //
-//  Created by Mitya Kim on 3/30/23.
+//  Created by Mitya Kim on 3/31/23.
 //
 
 import CoreData
@@ -31,10 +31,12 @@ struct PersistenceController {
     }()
     
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "Intro") // else UnsafeRawBufferPointer with negative count
+        container = NSPersistentContainer(name: "Intro")
+        
         if inMemory {
-            container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "dev/null")
+            container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }
+        
         container.loadPersistentStores { (storeDescription, error) in
             if let error = error as NSError? {
                 fatalError("Unresolved error \(error), \(error.userInfo)")
@@ -42,7 +44,6 @@ struct PersistenceController {
         }
     }
     
-    // Save context
     func saveContext() {
         let context = container.viewContext
         
